@@ -6,6 +6,7 @@ int f_btn = 0; // deveria ser volatile
 // ISR
 void btn_callback(void) {
   f_btn = 1; // variável alterada de uma interrupcão
+  
 }
 
 void main(void) {
